@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2 {
+        fill: #f0f3f8;
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.016" y1="-0.144" x2="0.808" y2="1.224" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2940a4"/>
+      <stop offset="0.991" stop-color="#3ec8e9"/>
+      <stop offset="1" stop-color="#3ec9e9"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-4" width="1920" height="1080"/>
+    <path id="Untitled-1" class="cls-2" d="M-1.71,0H1921.71V740.67S253.29,1734-1.71,886Z" transform="translate(206.006 -217.19) rotate(3)"/>
+    <path id="Untitled-1-2" data-name="Untitled-1" class="cls-3" d="M-1.71,0H1921.71V740.67S253.29,1734-1.71,886Z" transform="translate(1.71 -151)"/>
+  </g>
+</svg>

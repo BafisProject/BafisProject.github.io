@@ -1,0 +1,209 @@
+/*
+    Theme Responsive Design
+*/
+
+/* ---- Start of max-width 992px CSS ---- */
+
+@media (max-width: 992px){
+
+  .jumbotron h1{
+    font-size: 40px;
+    line-height: 58px;
+    margin-top: 40px;
+  }
+  .jumbotron p { font-size: 20px; }
+
+  .header-macbook img {
+    max-width: 115%;
+    margin-left: -60px;
+    display: block;
+}
+.about-image {
+    left: -350px;
+}
+.about h2{
+	margin-top: 45px;
+}
+
+}
+
+/* ---- End of max-width 992px CSS ---- */
+
+/* ---- Start of min-width 992px CSS ---- */
+
+@media (max-width: 991px){
+
+  .header-macbook img{ 
+  	display: none;
+  }
+	
+}
+
+/* ---- End of max-width 992px CSS ---- */
+
+/* ---- Start of max-width 768px CSS ---- */
+
+@media all and (max-width: 768px){
+	section, .footer-area {
+		padding: 100px 0px;
+	}
+
+  h2{
+	font-size: 34px;
+	line-height: 48px;
+	}
+	p{
+		font-size: 16px;
+		line-height: 26px;
+	}
+  .navbar-nav li{
+  	padding: 5px;
+  }
+  .jumbotron h1{
+    font-size: 36px;
+    line-height: 52px;
+    margin-top: 0; 
+  }
+  .jumbotron p{
+    font-size: 20px;
+  }
+  .about-image {
+    left: -260px;
+    margin-top: 45px;
+}
+  .about h2{
+	margin-top: 0;
+}
+.counter-item h1 {
+    font-size: 40px;
+}
+.soft-download img{
+	margin-bottom: 50px;
+}
+.testimonial-item_image{
+	width: 170px;
+	height: 170px;
+}
+.testimonial-content h5{
+	font-size: 22px;
+}
+.testimonial-item .ts-btn{
+	font-size: 15px;
+}
+.subscribe-form .control {
+	margin-top: 20px;
+}
+.social-menu a{
+	width: 32px;
+}
+
+}
+
+/* ---- End of max-width 768px CSS ---- */
+
+/* ---- Start of max-width 576px CSS ---- */
+
+@media all and (max-width: 576px){
+	section, .footer-area{
+		padding: 80px 0px;
+	}
+	h2{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	p{
+		font-size: 14px;
+    	line-height: 24px;
+	}
+	.thm-button, .thm-button-2{
+		font-size: 14px;
+	}
+	.jumbotron h1 {
+	    font-size: 32px;
+	    line-height: 48px;
+	}
+	.jumbotron p{
+		font-size: 18px;
+	}
+	.about-image{
+		max-width: 100%;
+	    height: auto;
+	    margin-bottom: 60px;
+	    left: 0px;
+	    margin-top: 0px;
+	    position: initial;
+
+	}
+	.counter-item{
+		margin-bottom: 35px;
+	}
+	.dashbord-icon a{
+		width: 70px;
+		height: 70px;
+		font-size: 30px;
+	}
+	.pricing-tabs .tab-btns .tab-btn{
+	    font-size: 14px;
+	    min-width: 100px;
+	    padding: 9px 36px;
+	}
+	.pricing-tabs .tab-btns {
+	    margin-bottom: 30px;
+	    margin-top: 20px;
+	}
+	.pricing-section .price-column .price{
+		font-size: 55px;
+	}
+	.subscribe-form .control, .subscribe-form .submit{
+		height: 55px;
+	}
+	.footer-widget-area .widget .widget-title{
+		font-size: 18px;
+	}
+	.widget .footer-logo{
+		width: 100px;
+	}
+	.social-menu a {
+    width: 23px;
+	}
+	.footer-widget-area .widget ul li, .copyright{
+		font-size: 14px;
+	}
+
+}
+
+/* ---- End of max-width 576px CSS ---- */
+
+/* ---- Start of max-width 420px CSS ---- */
+
+@media all and (max-width: 420px){
+
+	.footer-widget-area .widget .widget-title{
+		margin-top: 25px;
+	}
+	.subscribe-form .submit{
+		font-size: 10px;
+	}
+	.subscribe-form .control::placeholder{
+		font-size: 14px;
+	}
+
+}
+
+/* ---- End of max-width 420px CSS ---- */
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+
+	.thm-button, .thm-button-2{
+		font-size: 12px;
+	} 
+	.subscribe-form .submit{
+		font-size: 8px;
+	}
+	.subscribe-form .submit{
+		padding: 10px 6px;
+	}
+
+}
+/* ---- End of max-width 380px CSS ---- */
